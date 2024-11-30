@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>b.png</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,}$</string>
+			<key>Title</key>
+			<string>Bilibili</string>
+			<key>URL</key>
+			<string>https://search.bilibili.com/all?keyword={popclip text}</string>
+		</dict>
+	</array>
+	<key>Extension Identifier</key>
+	<string>om.yourname.bilibilisearch</string>
+	<key>Extension Name</key>
+	<string>Bilibili</string>
+	<key>Extension Description</key>
+	<string>Search for videos on Bilibili.</string>
+</dict>
+</plist>
